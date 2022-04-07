@@ -8,5 +8,3 @@ ADD templates/index.html .
 WORKDIR /templates/index.html
 COPY . /index
 COPY requirements.txt .
-
-EXPOSE 8081
